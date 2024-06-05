@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Verificador</title>
+</head>
+
+<body>
+
+    <div class="imagem">
+        <img src="fundoSite.png" width="700px" alt="">
+    </div>
+
+    <div class="verificador">
+        <h1 id="titulo">Verificador de Nível de Jogador</h1><br>
+        <h3 id="titulo2">Insira a quantidade de vitórias e derrotas do jogador para verificar seu nível:</h3>
+    </div>
+
+
+    <div class="parte2">
+        <div class="vitorias">
+            <input type="number" id="vitorias" min="0">
+        </div>
+
+        <div class="derrotas">
+            <input type="number" id="derrotas" min="0">
+        </div>
+
+        <button type="submit" id="botao" onclick="calcular()">Verificar</button><br>
+    </div>
+
+    <p id="resultado"></p>
+
+    <script src="java.js"></script>
+</body>
+
+</html>
